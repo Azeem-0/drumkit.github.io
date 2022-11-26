@@ -9,32 +9,35 @@ h1{
     text-align: center;
     margin-top: 120px;
 }
+.animate{
+    box-shadow: 10px 5px 10px 5px white;
+    opacity: 0.5;
+}
 button{
     width: 200px;
     height: 200px;
     margin:20px 20px;
 }
-#b1{
+#a{
     background-image: url("Drum_images/drum1.jpg");
     color:black;
     font-size: 50px;
 }
-#b2{
+#j{
     background-image: url("Drum_images/drum3.jpg");
     color:black;
     font-size: 50px;
 }
-#b3{
+#f{
     background-image: url("Drum_images/drum4.jpg");
     color:black;
     font-size: 50px;
 }
-#b4{
+#l{
     background-image: url("Drum_images/drum5.jpg");
-    color:white;
     font-size: 50px;
 }
-#b5{
+#d{
     background-image: url("Drum_images/drum2.jpg");
     color:black;
     font-size: 50px;
