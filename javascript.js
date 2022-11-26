@@ -1,6 +1,11 @@
 var d1,d2,d3,d4,d5;
-document.addEventListener("keypress",function(event){
-    switch (event.key) {
+document.addEventListener("keypress",function(event)
+{
+    MakesoundbykeyB(event.key);
+});
+
+function MakesoundbykeyB(a){
+    switch (a) {
         case "a":
             d1 = new Audio("Drum_sounds/drum1.mp3");
             d1.play();
@@ -24,13 +29,15 @@ document.addEventListener("keypress",function(event){
         default:
             break;
     }
-
-});
+}
 for(var i=0;i<6;i++)
 {
     document.querySelectorAll("button")[i].addEventListener("click",function(){
-        var c = this.innerHTML;
-        console.log(c);
+        MakeSound(this.innerHTML);
+    });
+}
+
+function MakeSound(c){
         switch (c) {
             case "A":
                 d1 = new Audio("Drum_sounds/drum1.mp3");
@@ -55,7 +62,4 @@ for(var i=0;i<6;i++)
             default:
                 break;
         }
-    });
 }
-
-
