@@ -1,0 +1,41 @@
+body{
+    background-color: burlywood;
+}
+h1{
+    margin-top: 50px;
+    text-align: center;
+}
+#drum_buttons{
+    text-align: center;
+    margin-top: 120px;
+}
+button{
+    width: 200px;
+    height: 200px;
+    margin:20px 20px;
+}
+#b1{
+    background-image: url("Drum_images/drum1.jpg");
+    color:black;
+    font-size: 50px;
+}
+#b2{
+    background-image: url("Drum_images/drum3.jpg");
+    color:black;
+    font-size: 50px;
+}
+#b3{
+    background-image: url("Drum_images/drum4.jpg");
+    color:black;
+    font-size: 50px;
+}
+#b4{
+    background-image: url("Drum_images/drum5.jpg");
+    color:white;
+    font-size: 50px;
+}
+#b5{
+    background-image: url("Drum_images/drum2.jpg");
+    color:black;
+    font-size: 50px;
+}
