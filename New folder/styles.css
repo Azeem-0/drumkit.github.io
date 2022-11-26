@@ -1,0 +1,13 @@
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
+#drum_buttons{
+    text-align: center;
+    margin-top: 120px;
+}
+button{
+    width: 200px;
+    height: 200px;
+    margin:20px 20px;
+}
