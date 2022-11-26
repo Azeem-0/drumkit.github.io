@@ -27,21 +27,21 @@ function MakeSound(c){
             case "d":
                 d2 = new Audio("Drum_sounds/drum2.mp3");
                     d2.play();
-                    //document.getElementById("b2").classList.add("animate");
+        
                     break;
             case "f":
                 d3 = new Audio("Drum_sounds/drum3.mp3");
                     d3.play();
-                    //document.getElementById("b3").classList.add("animate");
+                 
                     break;
             case "j":
                 d4 = new Audio("Drum_sounds/drum4.mp3");
                     d4.play();
-                    //document.getElementById("b4").classList.add("animate");
+                  
                     break;
             case "l":
                     d5 = new Audio("Drum_sounds/drum5.mp3");
-                    //document.getElementById("b5").classList.add("animate");
+                    
                     d5.play();
                     break;
             default:
